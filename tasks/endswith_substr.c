@@ -3,7 +3,7 @@
 #define true 1
 #define false 0
 // to check whether the string ends with substring or not
-int startswith(char *str, char *substr)
+int endswith(char *str, char *substr)
 {
     int str_len = strlen(str);
     int substr_len = strlen(substr);
@@ -21,7 +21,7 @@ int main()
 {
     char str[] = "General Knowledge";
     char substr[] = "Knowledge";
-    if (startswith(str, substr))
+    if (endswith(str, substr))
         printf("yes, string ends with substring.\n");
     else
         printf("No, string  not ends with substring.\n");
