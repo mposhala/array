@@ -2,6 +2,7 @@
 #include <string.h>
 #define true 1
 #define false 0
+// to check whether the string ends with substring or not
 int startswith(char *str, char *substr)
 {
     int str_len = strlen(str);
